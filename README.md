@@ -1,6 +1,6 @@
-# Psygen Landing Page
+# PSyGen Landing Page
 
-Landing site for **Psygen**, a CTF team from the Department of Applied Mathematics and Computation Sciences, PSG College of Technology.
+Landing site for **PSyGen**, a CTF team from the Department of Applied Mathematics and Computation Sciences, PSG College of Technology.
 
 Currently a static "Coming Soon" page (`index.html`). No build step required.
 
