@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Psygen — Coming Soon</title>
+<meta name="description" content="Psygen is a CTF team from the Dept. of Applied Mathematics and Computation Sciences, PSG College of Technology.">
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --bg: #0a0e14;
+    --fg: #e6edf3;
+    --accent: #39ff88;
+    --muted: #7d8590;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 24px;
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(57,255,136,0.08), transparent 40%),
+      radial-gradient(circle at 80% 80%, rgba(57,255,136,0.05), transparent 40%);
+  }
+  .container { max-width: 640px; }
+  .logo {
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    margin: 0 0 8px;
+    color: var(--accent);
+    text-shadow: 0 0 20px rgba(57,255,136,0.35);
+  }
+  .tagline {
+    font-size: 0.95rem;
+    color: var(--muted);
+    margin: 0 0 32px;
+    line-height: 1.6;
+  }
+  .status {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    animation: pulse 2.5s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.55; }
+  }
+  .footer {
+    margin-top: 40px;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .footer a { color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--muted); }
+  .footer a:hover { color: var(--accent); border-color: var(--accent); }
+  .cursor {
+    display: inline-block;
+    width: 10px;
+    background: var(--accent);
+    margin-left: 4px;
+    animation: blink 1s step-end infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+</head>
+<body>
+  <div class="container">
+    <p class="logo">PSYGEN<span class="cursor">&nbsp;</span></p>
+    <p class="tagline">
+      Capture The Flag team — Dept. of Applied Mathematics<br>
+      and Computation Sciences, PSG College of Technology
+    </p>
+    <div class="status">Coming Soon</div>
+    <p class="footer">
+      <a href="mailto:hello@psygen.in">hello@psygen.in</a>
+    </p>
+  </div>
+</body>
+</html>
